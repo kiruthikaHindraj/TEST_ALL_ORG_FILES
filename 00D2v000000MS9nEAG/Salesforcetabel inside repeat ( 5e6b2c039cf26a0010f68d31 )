@@ -8,7 +8,7 @@
         "deployed": true,
         "created_at": "2020-03-13T06:45:23.581Z",
         "attributes": {
-            "github_repository_sha": "7e297a11778e14a1619a0b2cf93e8b821ba2d8cd"
+            "github_repository_sha": "b819b5a3788bd38c2a03bea4716bc45a398b2949"
         },
         "pages": [
             {
@@ -37,139 +37,145 @@
                         "required": false,
                         "components": [
                             {
-                                "type": "Select",
-                                "name": "Select",
-                                "category": "select",
-                                "label": "Locality (Embu-Tharaka)",
-                                "icon": "/scripts/formbuilder/img/select.png",
-                                "select_options": "Malikini\nMbondoni\nMutuobare\nNdunguni\nNthingini\nUgweri\nEmbu Town\nGachuriri\nGikuru\nIshiara\nKanyuambora\nKarurumo\nKiritiri\nMakima\nKathangariri\nMwanyani\nMugere\nMakutano\nMuraru",
-                                "component_id": "f9b8-ed94-265a",
-                                "attributes": {
-                                    "select_option_values": "",
-                                    "unselected_label": "",
-                                    "enable_select_picker_view": false,
-                                    "dependent_list_values": ""
-                                },
-                                "required": false,
+                                "value": "",
                                 "components": [],
-                                "value": ""
+                                "required": false,
+                                "attributes": {
+                                    "dependent_list_values": "",
+                                    "enable_select_picker_view": false,
+                                    "unselected_label": "",
+                                    "select_option_values": ""
+                                },
+                                "component_id": "f9b8-ed94-265a",
+                                "select_options": "Malikini\nMbondoni\nMutuobare\nNdunguni\nNthingini\nUgweri\nEmbu Town\nGachuriri\nGikuru\nIshiara\nKanyuambora\nKarurumo\nKiritiri\nMakima\nKathangariri\nMwanyani\nMugere\nMakutano\nMuraru",
+                                "icon": "/scripts/formbuilder/img/select.png",
+                                "label": "Locality (Embu-Tharaka)",
+                                "category": "select",
+                                "name": "Select",
+                                "type": "Select"
                             },
                             {
-                                "type": "Select",
-                                "name": "Select",
-                                "category": "select",
-                                "label": "Reseller",
-                                "icon": "/scripts/formbuilder/img/select.png",
-                                "select_options": "Farmlink Enterprises Ltd\nCatherine Nduku (Agrovet)\nRiakanau Multipurpose\nArauka Agencies\nMartin Chiira / One Stone (Agrovet)\nCarol Mbula Muthusi \nNicholas (Lead farmer)\nJoy Agrovet\nBS Hardware\nFarmers Wish\nGikuru Farmcare\nRosa Wanjiru (Agrovet)\nBernard Njagi (Lead Farmer)\nIrene Nyaga (Agrovet)\nReuben Mutuku (Agrovet)\nChristopher Njeru\nMwanyani\nCharles Kinyua (Lead Farmers)\nCaroline Njeri Macharia (Cavasy Agrovet)\nRachel Elizabeth",
-                                "component_id": "cca7-e2e5-f325",
+                                "value": "",
+                                "components": [],
+                                "required": false,
                                 "attributes": {
-                                    "select_option_values": "",
-                                    "unselected_label": "",
-                                    "enable_select_picker_view": false,
                                     "dependent_list_values": {
                                         "f9b8-ed94-265a": {
-                                            "Embu Town": [
-                                                "Farmlink Enterprises Ltd"
+                                            "Mutuobare": [
+                                                "Rachel Elizabeth"
                                             ],
-                                            "Ndunguni": [
-                                                "Catherine Nduku (Agrovet)"
+                                            "Muraru": [
+                                                "Caroline Njeri Macharia (Cavasy Agrovet)"
                                             ],
-                                            "Malikini": [
-                                                "Riakanau Multipurpose"
+                                            "Mugere": [
+                                                "Charles Kinyua (Lead Farmers)"
                                             ],
-                                            "Makutano": [
-                                                "Arauka Agencies"
+                                            "Mwanyani": [
+                                                "Mwanyani"
                                             ],
-                                            "Karurumo": [
-                                                "Martin Chiira / One Stone (Agrovet)"
+                                            "Kathangariri": [
+                                                "Christopher Njeru"
                                             ],
-                                            "Nthingini": [
-                                                "Carol Mbula Muthusi "
+                                            "Makima": [
+                                                "Reuben Mutuku (Agrovet)"
                                             ],
-                                            "Ugweri": [
-                                                "Nicholas (Lead farmer)"
+                                            "Kiritiri": [
+                                                "Irene Nyaga (Agrovet)"
+                                            ],
+                                            "Kanyuambora": [
+                                                "Bernard Njagi (Lead Farmer)"
+                                            ],
+                                            "Ishiara": [
+                                                "Rosa Wanjiru (Agrovet)"
+                                            ],
+                                            "Gikuru": [
+                                                "Gikuru Farmcare"
+                                            ],
+                                            "Gachuriri": [
+                                                "Farmers Wish"
                                             ],
                                             "Mbondoni": [
                                                 "Joy Agrovet",
                                                 "BS Hardware"
                                             ],
-                                            "Gachuriri": [
-                                                "Farmers Wish"
+                                            "Ugweri": [
+                                                "Nicholas (Lead farmer)"
                                             ],
-                                            "Gikuru": [
-                                                "Gikuru Farmcare"
+                                            "Nthingini": [
+                                                "Carol Mbula Muthusi "
                                             ],
-                                            "Ishiara": [
-                                                "Rosa Wanjiru (Agrovet)"
+                                            "Karurumo": [
+                                                "Martin Chiira / One Stone (Agrovet)"
                                             ],
-                                            "Kanyuambora": [
-                                                "Bernard Njagi (Lead Farmer)"
+                                            "Makutano": [
+                                                "Arauka Agencies"
                                             ],
-                                            "Kiritiri": [
-                                                "Irene Nyaga (Agrovet)"
+                                            "Malikini": [
+                                                "Riakanau Multipurpose"
                                             ],
-                                            "Makima": [
-                                                "Reuben Mutuku (Agrovet)"
+                                            "Ndunguni": [
+                                                "Catherine Nduku (Agrovet)"
                                             ],
-                                            "Kathangariri": [
-                                                "Christopher Njeru"
-                                            ],
-                                            "Mwanyani": [
-                                                "Mwanyani"
-                                            ],
-                                            "Mugere": [
-                                                "Charles Kinyua (Lead Farmers)"
-                                            ],
-                                            "Muraru": [
-                                                "Caroline Njeri Macharia (Cavasy Agrovet)"
-                                            ],
-                                            "Mutuobare": [
-                                                "Rachel Elizabeth"
+                                            "Embu Town": [
+                                                "Farmlink Enterprises Ltd"
                                             ]
                                         }
-                                    }
+                                    },
+                                    "enable_select_picker_view": false,
+                                    "unselected_label": "",
+                                    "select_option_values": ""
                                 },
-                                "required": false,
-                                "components": [],
-                                "value": ""
+                                "component_id": "cca7-e2e5-f325",
+                                "select_options": "Farmlink Enterprises Ltd\nCatherine Nduku (Agrovet)\nRiakanau Multipurpose\nArauka Agencies\nMartin Chiira / One Stone (Agrovet)\nCarol Mbula Muthusi \nNicholas (Lead farmer)\nJoy Agrovet\nBS Hardware\nFarmers Wish\nGikuru Farmcare\nRosa Wanjiru (Agrovet)\nBernard Njagi (Lead Farmer)\nIrene Nyaga (Agrovet)\nReuben Mutuku (Agrovet)\nChristopher Njeru\nMwanyani\nCharles Kinyua (Lead Farmers)\nCaroline Njeri Macharia (Cavasy Agrovet)\nRachel Elizabeth",
+                                "icon": "/scripts/formbuilder/img/select.png",
+                                "label": "Reseller",
+                                "category": "select",
+                                "name": "Select",
+                                "type": "Select"
                             },
                             {
-                                "type": "Text",
-                                "name": "Text",
-                                "category": "input",
-                                "label": "Others",
-                                "icon": "/scripts/formbuilder/img/text.png",
-                                "component_id": "f212-78a4-e06a",
+                                "components": [],
+                                "required": false,
                                 "attributes": {
                                     "readonly": "no"
                                 },
-                                "required": false,
-                                "components": []
+                                "component_id": "f212-78a4-e06a",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "label": "Others",
+                                "category": "input",
+                                "name": "Text",
+                                "type": "Text"
                             },
                             {
-                                "type": "SalesforceTable",
-                                "name": "Salesforce Table",
-                                "category": "salesforce",
-                                "label": "Records",
-                                "icon": "/scripts/formbuilder/img/salesforce.png",
-                                "version": "2",
+                                "components": [],
+                                "required": false,
+                                "component_id": "d19b-60ee-5699",
+                                "record_id": "",
+                                "object_api_name": "Account",
+                                "object_label": "None Selected",
+                                "sfdc_query_search_group": "",
+                                "sfdc_query_order_by": "",
+                                "sfdc_query_visibility": "All Records",
+                                "sfdc_filter_fields": "",
+                                "sfdc_query_limit": "2",
+                                "sfdc_query_fields": "Id,Name",
                                 "attributes": {
-                                    "error_count": 0,
-                                    "error": [],
-                                    "query_fields": "",
-                                    "query_limit": "10",
-                                    "filter_fields": "",
-                                    "query_visibility": "",
-                                    "query_order_by": "",
-                                    "query_search_group": "",
-                                    "table_page_length": "",
+                                    "enable_record_auto_submit": true,
+                                    "add_new_record_button": true,
+                                    "table_submit_button_label": "",
+                                    "add_table_submit_button": false,
+                                    "owner_field": "",
+                                    "sfdc_parent_component": "",
+                                    "sfdc_parent_field_name": "",
+                                    "custom_offline_lookup_filter": "",
+                                    "offline_sync_filter": "",
                                     "custom_column_name": [
                                         {
                                             "api_name": "Id",
                                             "column_label": "Day",
                                             "data_type": "select",
                                             "editable": true,
-                                            "required": true,
+                                            "required": false,
                                             "default_value": "",
                                             "default_option": "Monday, Tuesday, Wednesday, Thursday, Friday"
                                         },
@@ -187,7 +193,7 @@
                                             "column_label": "Last Name",
                                             "data_type": "text",
                                             "editable": true,
-                                            "required": true,
+                                            "required": false,
                                             "default_value": "",
                                             "default_option": ""
                                         },
@@ -196,7 +202,7 @@
                                             "column_label": "Assigned Marketing Initiative",
                                             "data_type": "select",
                                             "editable": true,
-                                            "required": true,
+                                            "required": false,
                                             "default_value": "",
                                             "default_option": "Phone Call, SMS, Whatsapp, Scoping Visit, Referral Visit, Extension Visit, Bring a Friend Event"
                                         },
@@ -205,7 +211,7 @@
                                             "column_label": "Mobile Number",
                                             "data_type": "number",
                                             "editable": true,
-                                            "required": true,
+                                            "required": false,
                                             "default_value": "",
                                             "default_option": ""
                                         },
@@ -214,33 +220,27 @@
                                             "column_label": "ID Number",
                                             "data_type": "number",
                                             "editable": true,
-                                            "required": true,
+                                            "required": false,
                                             "default_value": "",
                                             "default_option": ""
                                         }
                                     ],
-                                    "offline_sync_filter": "",
-                                    "custom_offline_lookup_filter": "",
-                                    "sfdc_parent_field_name": "",
-                                    "sfdc_parent_component": "",
-                                    "owner_field": "",
-                                    "add_table_submit_button": false,
-                                    "table_submit_button_label": "",
-                                    "add_new_record_button": true,
-                                    "enable_record_auto_submit": true
+                                    "table_page_length": "",
+                                    "query_search_group": "",
+                                    "query_order_by": "",
+                                    "query_visibility": "",
+                                    "filter_fields": "",
+                                    "query_limit": "10",
+                                    "query_fields": "",
+                                    "error": [],
+                                    "error_count": 0
                                 },
-                                "sfdc_query_fields": "Id,Name",
-                                "sfdc_query_limit": "2",
-                                "sfdc_filter_fields": "",
-                                "sfdc_query_visibility": "All Records",
-                                "sfdc_query_order_by": "",
-                                "sfdc_query_search_group": "",
-                                "object_label": "None Selected",
-                                "object_api_name": "Account",
-                                "record_id": "",
-                                "component_id": "d19b-60ee-5699",
-                                "required": false,
-                                "components": []
+                                "version": "2",
+                                "icon": "/scripts/formbuilder/img/salesforce.png",
+                                "label": "Records",
+                                "category": "salesforce",
+                                "name": "Salesforce Table",
+                                "type": "SalesforceTable"
                             }
                         ],
                         "repeat_value": [],
