@@ -26,7 +26,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Header",
@@ -39,7 +40,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "SelectGrid",
@@ -74,7 +76,15 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [
+                            {
+                                "component_id": "1631-7001-6cfb",
+                                "label": "Select Grid (Details)",
+                                "value": "Try",
+                                "type": "SelectGrid",
+                                "_id": "5e8d7615141559001a84bf12"
+                            }
+                        ]
                     },
                     {
                         "type": "RadioSelect",
@@ -114,7 +124,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "27552efa1722078e1d12111bb14b279baa0c2ea2"
+            "github_repository_sha": "8727f724a313d4abe15de38d0126b9954a8665c2"
         }
     },
     "connections": [],
