@@ -26,7 +26,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Header",
@@ -39,7 +40,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "SelectGrid",
@@ -47,7 +49,7 @@
                         "category": "select",
                         "label": "Select Grid",
                         "icon": "/scripts/formbuilder/img/radio_options.png",
-                        "select_options": "Yes\nNo",
+                        "select_options": "Try\nSkip",
                         "component_id": "1631-7001-6cfb",
                         "attributes": {
                             "group_vertically": "false",
@@ -78,9 +80,9 @@
                             {
                                 "component_id": "1631-7001-6cfb",
                                 "label": "Select Grid (Details)",
-                                "value": "Yes",
+                                "value": "Try",
                                 "type": "SelectGrid",
-                                "_id": "5e8d6d496c92140010216257"
+                                "_id": "5e8d743e141559001a84bf10"
                             }
                         ]
                     }
@@ -98,7 +100,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "8bda90661bd1500e2eb689806c201add9a6c6ce6"
+            "github_repository_sha": "16fe40eacd539c7b5de1a3130637dc0681a75209"
         }
     },
     "connections": [],
