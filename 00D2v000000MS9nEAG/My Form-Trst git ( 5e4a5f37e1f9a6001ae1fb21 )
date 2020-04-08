@@ -26,8 +26,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Header",
@@ -40,8 +39,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "SelectGrid",
@@ -66,6 +64,22 @@
                         "type": "RadioSelect",
                         "name": "Radio Select",
                         "category": "select",
+                        "label": "Radio Select List1",
+                        "icon": "/scripts/formbuilder/img/radio_options.png",
+                        "select_options": "1\n2\n3",
+                        "component_id": "70f1-caa5-4d57",
+                        "attributes": {
+                            "layout": "Vertical"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "RadioSelect",
+                        "name": "Radio Select",
+                        "category": "select",
                         "label": "Radio Select List",
                         "icon": "/scripts/formbuilder/img/radio_options.png",
                         "select_options": "Select One\nSelect Two\nSelect Three",
@@ -76,7 +90,15 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [
+                            {
+                                "component_id": "70f1-caa5-4d57",
+                                "label": "Radio Select List1 (Details)",
+                                "value": "1",
+                                "type": "RadioSelect",
+                                "_id": "5e8d758927061e00154ee041"
+                            }
+                        ]
                     }
                 ]
             }
@@ -92,7 +114,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "c1dc252a7d246e89a35f96af427804d383ac5eba"
+            "github_repository_sha": "27552efa1722078e1d12111bb14b279baa0c2ea2"
         }
     },
     "connections": [],
