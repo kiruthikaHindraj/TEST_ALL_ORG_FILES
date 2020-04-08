@@ -76,15 +76,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [
-                            {
-                                "component_id": "1631-7001-6cfb",
-                                "label": "Select Grid (Details)",
-                                "value": "Try",
-                                "type": "SelectGrid",
-                                "_id": "5e8d743e141559001a84bf10"
-                            }
-                        ]
+                        "controlling_elements": []
                     }
                 ]
             }
@@ -100,7 +92,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "16fe40eacd539c7b5de1a3130637dc0681a75209"
+            "github_repository_sha": "c1dc252a7d246e89a35f96af427804d383ac5eba"
         }
     },
     "connections": [],
