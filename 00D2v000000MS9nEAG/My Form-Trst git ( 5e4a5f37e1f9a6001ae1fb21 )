@@ -80,9 +80,9 @@
                             {
                                 "component_id": "1631-7001-6cfb",
                                 "label": "Select Grid (Details)",
-                                "value": "Yes",
+                                "value": "Try",
                                 "type": "SelectGrid",
-                                "_id": "5e8d7cb35cd912001063ca74"
+                                "_id": "5e8d82a8d6e0090011b331c8"
                             }
                         ]
                     },
@@ -124,7 +124,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "8480eccfc9dbe8ec572d3b868b9435a549f97acb"
+            "github_repository_sha": "f2a9edad42c4b58727f256e36a3ffdd488874744"
         }
     },
     "connections": [],
