@@ -49,7 +49,7 @@
                         "category": "select",
                         "label": "Select Grid",
                         "icon": "/scripts/formbuilder/img/radio_options.png",
-                        "select_options": "Yes\nNo",
+                        "select_options": "Try\nSkip",
                         "component_id": "1631-7001-6cfb",
                         "attributes": {
                             "group_vertically": "false",
@@ -124,7 +124,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "4726e9bc088c6bf5a5ef8c3e7e7ca1f91aa07aa0"
+            "github_repository_sha": "8480eccfc9dbe8ec572d3b868b9435a549f97acb"
         }
     },
     "connections": [],
