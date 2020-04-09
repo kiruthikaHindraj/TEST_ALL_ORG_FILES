@@ -26,7 +26,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Header",
@@ -39,7 +40,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "MultiSelect",
@@ -89,7 +91,7 @@
                         "select_options": "A\nB\nC\nOther",
                         "component_id": "43cd-3a4a-8ab7",
                         "attributes": {
-                            "layout": "Vertical"
+                            "layout": "Horizontal"
                         },
                         "required": false,
                         "components": [],
@@ -107,7 +109,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Text",
@@ -213,7 +216,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "4b3a6607045688899b2dccf272db2408d4e6654f"
+            "github_repository_sha": "6d25c30f3dc3ecbc6acff770d95f7058da51ecd0"
         }
     },
     "connections": [],
