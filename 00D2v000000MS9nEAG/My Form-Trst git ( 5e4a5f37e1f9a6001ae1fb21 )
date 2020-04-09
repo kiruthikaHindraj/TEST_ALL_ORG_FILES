@@ -26,8 +26,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Header",
@@ -40,8 +39,46 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "MultiSelect",
+                        "name": "Multi Select",
+                        "category": "select",
+                        "label": "Multi Select List",
+                        "icon": "/scripts/formbuilder/img/select.png",
+                        "select_options": "Select One\nSelect Two\nSelect Three\nOther other",
+                        "component_id": "d545-171e-795f",
+                        "attributes": {
+                            "select_option_values": ""
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Text",
+                        "name": "Text",
+                        "category": "input",
+                        "label": "Text Field12",
+                        "icon": "/scripts/formbuilder/img/text.png",
+                        "component_id": "adb6-23f1-0df1",
+                        "attributes": {
+                            "readonly": "no"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "d545-171e-795f",
+                                "label": "Multi Select List (Details)",
+                                "value": "Other other",
+                                "type": "MultiSelect",
+                                "_id": "5e8ebdd15410520010cf298e"
+                            }
+                        ]
                     },
                     {
                         "type": "MultiCheckList",
@@ -54,6 +91,19 @@
                         "attributes": {
                             "layout": "Vertical"
                         },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Header",
+                        "name": "Header",
+                        "category": "input",
+                        "label": "Header Text",
+                        "icon": "/scripts/formbuilder/img/header.png",
+                        "header": "h2",
+                        "component_id": "d00b-617b-4314",
                         "required": false,
                         "components": [],
                         "repeat_value": [],
@@ -163,7 +213,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "b8e93155edfe9d74da53220409717c0da088254e"
+            "github_repository_sha": "4b3a6607045688899b2dccf272db2408d4e6654f"
         }
     },
     "connections": [],
