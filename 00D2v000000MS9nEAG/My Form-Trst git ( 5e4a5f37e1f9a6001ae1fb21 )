@@ -26,8 +26,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Header",
@@ -40,8 +39,20 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "Hidden Field",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "db67-ad93-8de8",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     },
                     {
                         "type": "MultiSelect",
@@ -57,7 +68,15 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [
+                            {
+                                "component_id": "db67-ad93-8de8",
+                                "label": "Hidden Field (Details)",
+                                "value": "Yes",
+                                "type": "Hidden",
+                                "_id": "5e8f25bfe95ac400108af160"
+                            }
+                        ]
                     },
                     {
                         "type": "Text",
@@ -109,8 +128,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Text",
@@ -216,7 +234,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "6d25c30f3dc3ecbc6acff770d95f7058da51ecd0"
+            "github_repository_sha": "62cb0c246ee96a6f82e07ea08fffe8ef7181188e"
         }
     },
     "connections": [],
