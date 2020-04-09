@@ -26,7 +26,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Header",
@@ -39,7 +40,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "MultiCheckList",
@@ -50,7 +52,7 @@
                         "select_options": "A\nB\nC\nOther",
                         "component_id": "43cd-3a4a-8ab7",
                         "attributes": {
-                            "layout": "Horizontal"
+                            "layout": "Vertical"
                         },
                         "required": false,
                         "components": [],
@@ -161,7 +163,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "00b4ec9c979b30417756af4754b8a6ac7c6245f4"
+            "github_repository_sha": "b8e93155edfe9d74da53220409717c0da088254e"
         }
     },
     "connections": [],
