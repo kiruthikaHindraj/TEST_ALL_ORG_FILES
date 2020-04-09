@@ -26,8 +26,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Header",
@@ -40,8 +39,46 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "MultiCheckList",
+                        "name": "Multi Check List",
+                        "category": "select",
+                        "label": "Multi Check List",
+                        "icon": "/scripts/formbuilder/img/select.png",
+                        "select_options": "A\nB\nC\nOther",
+                        "component_id": "43cd-3a4a-8ab7",
+                        "attributes": {
+                            "layout": "Horizontal"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Text",
+                        "name": "Text",
+                        "category": "input",
+                        "label": "Text Field",
+                        "icon": "/scripts/formbuilder/img/text.png",
+                        "component_id": "3612-ff50-2aea",
+                        "attributes": {
+                            "readonly": "no"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "43cd-3a4a-8ab7",
+                                "label": "Multi Check List (Details)",
+                                "value": "Other",
+                                "type": "MultiCheckList",
+                                "_id": "5e8ebcd370011d001574b43a"
+                            }
+                        ]
                     },
                     {
                         "type": "SelectGrid",
@@ -124,7 +161,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "f2a9edad42c4b58727f256e36a3ffdd488874744"
+            "github_repository_sha": "00b4ec9c979b30417756af4754b8a6ac7c6245f4"
         }
     },
     "connections": [],
