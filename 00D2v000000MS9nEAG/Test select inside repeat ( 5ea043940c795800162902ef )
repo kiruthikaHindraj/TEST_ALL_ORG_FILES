@@ -45,42 +45,43 @@
                         "required": false,
                         "components": [
                             {
-                                "value": "",
-                                "components": [],
-                                "required": false,
+                                "type": "Select",
+                                "name": "Select",
+                                "category": "select",
+                                "label": "Select List12",
+                                "icon": "/scripts/formbuilder/img/select.png",
+                                "select_options": "Select One\nSelect Two\nSelect Three",
+                                "component_id": "c285-bd27-76fb",
                                 "attributes": {
+                                    "select_option_values": "",
+                                    "unselected_label": "",
+                                    "enable_select_picker_view": false,
                                     "dependent_list_values": {
                                         "1bc2-5aec-cc64": {
-                                            "Select C": [
-                                                "Select Three",
+                                            "Select A": [
                                                 "Select One",
-                                                "Select Two"
+                                                "Select Three"
                                             ],
                                             "Select B": [
                                                 "Select Two",
                                                 "Select One"
                                             ],
-                                            "Select A": [
+                                            "Select C": [
+                                                "Select Three",
                                                 "Select One",
-                                                "Select Three"
+                                                "Select Two"
                                             ]
                                         }
-                                    },
-                                    "enable_select_picker_view": false,
-                                    "unselected_label": "",
-                                    "select_option_values": ""
+                                    }
                                 },
-                                "component_id": "c285-bd27-76fb",
-                                "select_options": "Select One\nSelect Two\nSelect Three",
-                                "icon": "/scripts/formbuilder/img/select.png",
-                                "label": "Select List",
-                                "category": "select",
-                                "name": "Select",
-                                "type": "Select"
+                                "required": false,
+                                "components": [],
+                                "value": ""
                             }
                         ],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     }
                 ]
             }
@@ -94,7 +95,10 @@
         "access": "Private",
         "public": false,
         "list_view_fields": [],
-        "archived": false
+        "archived": false,
+        "attributes": {
+            "github_repository_sha": "fab3e9009ff8b2017e1fc2412395db773e86cc4b"
+        }
     },
     "connections": []
 }
