@@ -80,8 +80,29 @@
                             }
                         ],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
+                    }
+                ]
+            },
+            {
+                "page_id": "22f9-03f6-0a28",
+                "title": "Page 1",
+                "page_index": 1,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "MultiCheckList",
+                        "name": "Multi Check List",
+                        "category": "select",
+                        "label": "Multi Check List",
+                        "icon": "/scripts/formbuilder/img/select.png",
+                        "select_options": "Select One\nSelect Two\nSelect Three",
+                        "component_id": "1260-d186-e1cc",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             }
@@ -97,7 +118,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "fab3e9009ff8b2017e1fc2412395db773e86cc4b"
+            "github_repository_sha": "42414fb1d80cc3b6ec9eef3e126213975590a12d"
         }
     },
     "connections": []
