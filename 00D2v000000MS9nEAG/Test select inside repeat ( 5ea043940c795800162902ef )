@@ -16,6 +16,31 @@
                 "deployed": true,
                 "components": [
                     {
+                        "type": "Header",
+                        "name": "Header",
+                        "category": "input",
+                        "label": "Header Text",
+                        "icon": "/scripts/formbuilder/img/header.png",
+                        "header": "h2",
+                        "component_id": "1651-4f4e-2e49",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Text",
+                        "name": "Text",
+                        "category": "input",
+                        "label": "Text Field",
+                        "icon": "/scripts/formbuilder/img/text.png",
+                        "component_id": "2306-c1d9-fd92",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
                         "type": "Select",
                         "name": "Select",
                         "category": "select",
@@ -102,7 +127,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     }
                 ]
             }
@@ -118,7 +144,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "42414fb1d80cc3b6ec9eef3e126213975590a12d"
+            "github_repository_sha": "c10483f35fc2ea03ea2c92c08a8ae12271d47bd2"
         }
     },
     "connections": []
