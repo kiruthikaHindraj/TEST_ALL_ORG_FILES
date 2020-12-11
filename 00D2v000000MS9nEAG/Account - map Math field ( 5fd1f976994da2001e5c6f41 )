@@ -1,0 +1,203 @@
+{
+    "form": {
+        "created_by_id": "5f0c54ba6a666800216e9961",
+        "owner_id": "5f0c54ba6a666800216e9961",
+        "name": "Account - map Math field",
+        "page_count": 1,
+        "current_page": 0,
+        "deployed": true,
+        "created_at": "2020-12-10T10:31:49.694Z",
+        "pages": [
+            {
+                "page_id": "f32c-2d21-ebe9",
+                "title": "Details",
+                "page_index": 1,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "Salesforce",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Record Lookup",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "show_auto_search_results": false,
+                            "button": "Find",
+                            "enable_barcode_scanner": false,
+                            "position": "Fill",
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "10",
+                            "query_fields": ""
+                        },
+                        "sfdc_query_fields": "NumberofLocations__c",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "All Fields",
+                        "sfdc_auto_fill_id": "5fd1f97e994da2001e5c6f4a",
+                        "object_label": "None Selected",
+                        "object_api_name": "Account",
+                        "component_id": "d6d0-ce7a-dca9",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Number",
+                        "name": "Number",
+                        "category": "input",
+                        "label": "Number of locations",
+                        "icon": "/scripts/formbuilder/img/number.png",
+                        "component_id": "8b7e-293d-d3f7",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [],
+                        "attributes": {}
+                    },
+                    {
+                        "type": "Text",
+                        "name": "Text",
+                        "category": "input",
+                        "label": "Val",
+                        "icon": "/scripts/formbuilder/img/text.png",
+                        "component_id": "2a56-6971-652c",
+                        "attributes": {
+                            "readonly": "no"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "MathFormula",
+                        "name": "Math Formula",
+                        "category": "input",
+                        "label": "Math Formula",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "4d24-c2ea-f66c",
+                        "attributes": {
+                            "expression": "{{8b7e-293d-d3f7}}*{{2a56-6971-652c}}",
+                            "treat_blank_fields_as_zeroes": "Yes"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            }
+        ],
+        "connections": [
+            "Salesforce",
+            "Salesforce"
+        ],
+        "created_by": {
+            "last_name": "H",
+            "first_name": "Shanu",
+            "id": "5f0c54ba6a666800216e9961"
+        },
+        "access": "Private",
+        "public": false,
+        "list_view_fields": [],
+        "archived": false,
+        "attributes": {
+            "github_repository_sha": "0a6c303c71df6eb428eca14ba08ce0eabfd91b54"
+        }
+    },
+    "connections": [
+        {
+            "_id": "5fd1f97e994da2001e5c6f4a",
+            "created_at": "2020-12-10T10:33:34.959Z",
+            "updated_at": "2020-12-11T10:37:51.778Z",
+            "template_id": "5fd1f976994da2001e5c6f41",
+            "created_by_id": "5f0c54ba6a666800216e9961",
+            "owner_id": "5f0c54ba6a666800216e9961",
+            "sequence": 1,
+            "type": "Salesforce",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "NumberofLocations__c",
+                    "field_name": "Number of Locations ( NumberofLocations__c )",
+                    "component_id": "8b7e-293d-d3f7",
+                    "component_name": "Number of locations ( Page: Details )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false,
+                "object_id": "Account",
+                "object_name": "Account",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "d6d0-ce7a-dca9"
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 3,
+            "push_updates": false
+        },
+        {
+            "_id": "5fd1f9c547f3b1001f1af100",
+            "created_at": "2020-12-10T10:34:45.169Z",
+            "updated_at": "2020-12-10T10:43:32.089Z",
+            "template_id": "5fd1f976994da2001e5c6f41",
+            "created_by_id": "5f0c54ba6a666800216e9961",
+            "owner_id": "5f0c54ba6a666800216e9961",
+            "sequence": 2,
+            "type": "Salesforce",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Math_Number__c",
+                    "field_name": "Math_Number ( Math_Number__c )",
+                    "component_id": "4d24-c2ea-f66c",
+                    "component_name": "Math Formula ( Page: Details )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false,
+                "object_id": "Account",
+                "object_name": "Account",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "d6d0-ce7a-dca9"
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 1,
+            "push_updates": true
+        }
+    ]
+}
