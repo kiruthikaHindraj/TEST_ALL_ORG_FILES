@@ -88,11 +88,12 @@
                         "attributes": {
                             "phone_number_max_length": "",
                             "phone_number_min_length": "",
+                            "enable_select_picker_view": true,
                             "add_country_code_when_sending_to_salesforce": false,
-                            "default_country": "United States",
+                            "default_country": "United Kingdom",
                             "allow_users_to_select_country": true
                         },
-                        "component_id": "f0b9-7242-5ab4",
+                        "component_id": "e100-f153-08e8",
                         "required": false,
                         "components": [],
                         "repeat_value": [],
@@ -131,7 +132,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "11faa4cc95ef8f8da5f089be4fca97963131a064"
+            "github_repository_sha": "fb7b02e35225f9e533c7ca7585ce9056bc72b5aa"
         }
     },
     "connections": [
