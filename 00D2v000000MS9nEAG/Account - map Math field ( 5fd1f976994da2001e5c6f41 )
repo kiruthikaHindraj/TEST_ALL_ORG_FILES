@@ -114,6 +114,23 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
+                    },
+                    {
+                        "type": "MathFormula",
+                        "name": "Math Formula",
+                        "category": "input",
+                        "label": "Math Formula",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "98ec-3211-4028",
+                        "attributes": {
+                            "expression": "{{8b7e-293d-d3f7}}*{{2a56-6971-652c}}",
+                            "no_of_decimal_points": "4",
+                            "treat_blank_fields_as_zeroes": "No"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             }
@@ -132,7 +149,7 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "fb7b02e35225f9e533c7ca7585ce9056bc72b5aa"
+            "github_repository_sha": "7a1e35c75edbe6292943985e71acf55af5833c5a"
         }
     },
     "connections": [
