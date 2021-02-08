@@ -25,7 +25,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Salesforce",
@@ -55,7 +56,7 @@
                         "sfdc_query_visibility": "All Records",
                         "sfdc_query_order_by": "",
                         "sfdc_query_search_group": "All Fields",
-                        "sfdc_auto_fill_id": "",
+                        "sfdc_auto_fill_id": "6021494d586bb00015b1a627",
                         "object_label": "None Selected",
                         "object_api_name": "Account",
                         "component_id": "2898-f9a4-237f",
@@ -74,12 +75,15 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     }
                 ]
             }
         ],
-        "connections": [],
+        "connections": [
+            "Salesforce"
+        ],
         "created_by": {
             "last_name": "H",
             "first_name": "Shanu",
@@ -90,8 +94,56 @@
         "list_view_fields": [],
         "archived": false,
         "attributes": {
-            "github_repository_sha": "6fb806949e5c824e56463cf175de704c865d43b9"
+            "github_repository_sha": "8acc6ccc4cd755f53eab481b177617a452db6791"
         }
     },
-    "connections": []
+    "connections": [
+        {
+            "_id": "6021494d586bb00015b1a627",
+            "created_at": "2021-02-08T14:23:09.099Z",
+            "updated_at": "2021-02-08T14:23:55.415Z",
+            "template_id": "602116396863d2002a4f468f",
+            "created_by_id": "5f0c54ba6a666800216e9961",
+            "owner_id": "5f0c54ba6a666800216e9961",
+            "sequence": 1,
+            "type": "Salesforce",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Math_Number__c",
+                    "field_name": "Math_Number ( Math_Number__c )",
+                    "component_id": "37c3-26c1-2b64",
+                    "component_name": "Math Number ( Page: Details )"
+                },
+                {
+                    "field_id": "Name",
+                    "field_name": "Account Name ( Name )",
+                    "component_id": "b393-53f1-34df",
+                    "component_name": "Text Field ( Page: Details )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false,
+                "object_id": "Account",
+                "object_name": "Account",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "2898-f9a4-237f"
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 2,
+            "push_updates": false
+        }
+    ]
 }
