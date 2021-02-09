@@ -8,7 +8,7 @@
         "deployed": true,
         "created_at": "2021-02-09T12:37:57.994Z",
         "attributes": {
-            "github_repository_sha": "9e619802c9f1742b04c54789770c5262697fee2f",
+            "github_repository_sha": "9c5f4e325e934e10526806e55d2f6ca1f0ac51b3",
             "disable_salesforce_retry_with_form_owner": false,
             "disable_salesforce_offline_sync": false,
             "enable_access_for_community_users": false,
@@ -474,7 +474,7 @@
                     },
                     {
                         "type": "Hidden",
-                        "value": "null",
+                        "value": "",
                         "name": "Hidden",
                         "category": "input",
                         "label": "Pricebook2id",
