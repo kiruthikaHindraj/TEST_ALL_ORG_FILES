@@ -1,0 +1,850 @@
+{
+    "form": {
+        "created_by_id": "602147a3e2ac1f00137178e6",
+        "owner_id": "602147a3e2ac1f00137178e6",
+        "name": "Community",
+        "page_count": 1,
+        "current_page": 0,
+        "deployed": true,
+        "created_at": "2021-02-09T12:12:09.203Z",
+        "attributes": {
+            "language_locale_key": "",
+            "is_repeat": false,
+            "is_header_hidden": false,
+            "is_navigation_hidden": true,
+            "enable_sfdc_storage": false,
+            "enable_access_for_community_users": false,
+            "disable_salesforce_offline_sync": false,
+            "disable_salesforce_retry_with_form_owner": false
+        },
+        "description": "",
+        "tags": "",
+        "pages": [
+            {
+                "page_id": "50ee-5e69-5667",
+                "title": "Kampanie kukurydziane 2021",
+                "page_index": 1,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "<h3 style=\"text-align: center;\">Krok 1: Wyszukaj konto</h3>",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "4dea-3e7c-903d",
+                        "attributes": {
+                            "html_edit": "<h3 style=\"text-align: center;\">Krok 1: Wyszukaj konto</h3>",
+                            "html_detail": "<h3 style=\"text-align: center;\">Krok 1: Wyszukaj konto</h3>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Salesforce",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Wyszukaj konto",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "query_fields": "",
+                            "query_limit": "10",
+                            "filter_fields": "",
+                            "query_visibility": "",
+                            "query_order_by": "",
+                            "query_search_group": "",
+                            "auto_fill_id": "",
+                            "position": "Fill",
+                            "enable_barcode_scanner": false,
+                            "button": "Szukaj",
+                            "show_auto_search_results": false,
+                            "offline_sync_filter": "",
+                            "custom_offline_lookup_filter": ""
+                        },
+                        "sfdc_query_fields": "Name",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "isActive__c = true",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "All Fields",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Account",
+                        "component_id": "5631-0fa6-cd2c",
+                        "required": true,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "<h3 style=\"text-align: center;\">Krok 2: Wyszukaj kampanię w ramach jakiej chcesz dodać deklarację oraz uzupełnij pola wymagane.</h3>",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "8bd2-660d-384b",
+                        "attributes": {
+                            "html_edit": "<h3 style=\"text-align: center;\">Krok 2: Wyszukaj kampanię w ramach jakiej chcesz dodać deklarację oraz uzupełnij pola wymagane.</h3>",
+                            "html_detail": "<h3 style=\"text-align: center;\">Krok 2: Wyszukaj kampanię w ramach jakiej chcesz dodać deklarację oraz uzupełnij pola wymagane.</h3>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "SalesforceSelect",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Wybierz kampanię",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "query_fields": "",
+                            "query_limit": "10",
+                            "filter_fields": "",
+                            "query_visibility": "",
+                            "query_order_by": "",
+                            "query_search_group": "",
+                            "auto_fill_id": "",
+                            "position": "Fill",
+                            "button": "Wybierz kampanię",
+                            "owner_field": "",
+                            "offline_sync_filter": "",
+                            "custom_offline_lookup_filter": ""
+                        },
+                        "sfdc_query_fields": "Name",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "Name = 'Nasiona kukurydzy wyłącznościowe 2021' OR Name = 'Nasiona kukurydzy ogólne 2021'",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "",
+                        "sfdc_auto_fill_id": "60227c19e2ee6e00157a5a31",
+                        "object_label": "None Selected",
+                        "object_api_name": "Campaign",
+                        "component_id": "61d5-9bf2-0c00",
+                        "required": true,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "Nazwa okazji biznesowej",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "6160-31ce-6f27",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Date",
+                        "name": "Date",
+                        "category": "input",
+                        "label": "Data podpisania",
+                        "icon": "/scripts/formbuilder/img/date.png",
+                        "component_id": "5095-7d04-bd41",
+                        "attributes": {
+                            "format": "DD/MM/YYYY",
+                            "default_date": "0"
+                        },
+                        "required": true,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Select",
+                        "name": "Select",
+                        "category": "select",
+                        "label": "Status deklaracji",
+                        "icon": "/scripts/formbuilder/img/select.png",
+                        "select_options": "Nowa\nPropozycja\nOdrzucona",
+                        "component_id": "f61f-8a49-448c",
+                        "attributes": {
+                            "select_option_values": "New\nProposal\nClosed Lost",
+                            "unselected_label": "",
+                            "enable_select_picker_view": false,
+                            "dependent_list_values": ""
+                        },
+                        "required": true,
+                        "value": "",
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Select",
+                        "name": "Select",
+                        "category": "select",
+                        "label": "Powód odrzucenia",
+                        "icon": "/scripts/formbuilder/img/select.png",
+                        "select_options": "Konkurencja była szybsza\nLojalny wobec konkurencji\nBez upraw\nNie uczestniczy w akcjach co do zasady\nWpisz przyczynę w komentarzu",
+                        "component_id": "b99f-17c9-960e",
+                        "attributes": {
+                            "select_option_values": "Competition was faster\nLoyal to Competitor\nNo Cultivation\nDoes not participate\nOthers",
+                            "unselected_label": "",
+                            "enable_select_picker_view": false,
+                            "dependent_list_values": ""
+                        },
+                        "required": true,
+                        "value": "",
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "f61f-8a49-448c",
+                                "label": "Status deklaracji (Kampanie kukurydziane 2021)",
+                                "value": "Odrzucona",
+                                "type": "Select",
+                                "_id": "5fae72bea9ab2c001ed548da"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Text",
+                        "name": "Text",
+                        "category": "input",
+                        "label": "Komentarz",
+                        "icon": "/scripts/formbuilder/img/text.png",
+                        "component_id": "f226-40fe-2904",
+                        "attributes": {
+                            "readonly": "no"
+                        },
+                        "required": true,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "b99f-17c9-960e",
+                                "label": "Powód odrzucenia (Kampanie kukurydziane 2021)",
+                                "value": "Wpisz przyczynę w komentarzu",
+                                "type": "Select",
+                                "_id": "5fae72bea9ab2c001ed548d8"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "<h3 style=\"text-align: center;\">Krok 3: Dodaj produkty</h3>",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "c1e2-20f7-32d6",
+                        "attributes": {
+                            "html_edit": "<h3 style=\"text-align: center;\">Krok 3: Dodaj produkty</h3>",
+                            "html_detail": "<h3 style=\"text-align: center;\">Krok 3: Dodaj produkty</h3>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "f61f-8a49-448c",
+                                "label": "Status deklaracji (Kampanie kukurydziane 2021)",
+                                "value": "Nowa",
+                                "type": "Select",
+                                "_id": "5fae72bea9ab2c001ed548d6"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Repeat",
+                        "name": "Repeat Group",
+                        "category": "select",
+                        "label": "Produkty",
+                        "icon": "/scripts/formbuilder/img/repeat.png",
+                        "component_id": "6589-ebc5-ecd8",
+                        "attributes": {
+                            "add_button_label": "Dodaj",
+                            "add_title_label": "",
+                            "delete_button_label": "Usuń",
+                            "repeat_view_option": "table",
+                            "list_view_fields": [
+                                ""
+                            ],
+                            "sfdc_parent_component": "",
+                            "max_repeat_items": "",
+                            "all_expanded": false,
+                            "offline_sync_filter": "",
+                            "custom_offline_lookup_filter": ""
+                        },
+                        "required": true,
+                        "object_api_name": "",
+                        "sfdc_query_limit": "",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_order_by": "",
+                        "components": [
+                            {
+                                "type": "Salesforce",
+                                "name": "",
+                                "category": "salesforce",
+                                "label": "Wyszukaj produkt",
+                                "icon": "/scripts/formbuilder/img/salesforce.png",
+                                "version": "3",
+                                "attributes": {
+                                    "query_fields": "",
+                                    "query_limit": "10",
+                                    "filter_fields": "",
+                                    "query_visibility": "",
+                                    "query_order_by": "",
+                                    "query_search_group": "",
+                                    "auto_fill_id": "",
+                                    "position": "Fill",
+                                    "enable_barcode_scanner": false,
+                                    "button": "Szukaj",
+                                    "show_auto_search_results": false,
+                                    "offline_sync_filter": "",
+                                    "custom_offline_lookup_filter": ""
+                                },
+                                "sfdc_query_fields": "Name",
+                                "sfdc_query_limit": "10",
+                                "sfdc_filter_fields": "PRICEBOOK2ID='01s1o000005QMUvAAO'",
+                                "sfdc_query_visibility": "All Records",
+                                "sfdc_query_order_by": "",
+                                "sfdc_query_search_group": "All Fields",
+                                "sfdc_auto_fill_id": "",
+                                "object_label": "None Selected",
+                                "object_api_name": "PricebookEntry",
+                                "record_id": "",
+                                "component_id": "1664-d1f8-5b94",
+                                "required": true,
+                                "components": []
+                            },
+                            {
+                                "type": "Number",
+                                "name": "Number",
+                                "category": "input",
+                                "label": "Ilość",
+                                "icon": "/scripts/formbuilder/img/number.png",
+                                "component_id": "c7f9-025d-c0e8",
+                                "required": true,
+                                "components": []
+                            }
+                        ],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "f61f-8a49-448c",
+                                "label": "Status deklaracji (Kampanie kukurydziane 2021)",
+                                "value": "Nowa",
+                                "type": "Select",
+                                "_id": "5fae72bea9ab2c001ed548d4"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "<h3 style=\"text-align: center;\">Krok 3: To wszystko. Pamiętaj o zapisaniu!</h3>",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "91c7-d85a-3f6c",
+                        "attributes": {
+                            "html_edit": "<h3 style=\"text-align: center;\">Krok 3: To wszystko. Pamiętaj o zapisaniu!</h3>",
+                            "html_detail": "<h3 style=\"text-align: center;\">Krok 3: To wszystko. Pamiętaj o zapisaniu!</h3>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "f61f-8a49-448c",
+                                "label": "Status deklaracji (Kampanie kukurydziane 2021)",
+                                "value": "Odrzucona",
+                                "type": "Select",
+                                "_id": "5fae72bea9ab2c001ed548cc"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "<h3 style=\"text-align: center;\">Krok 4: To wszystko. Pamiętaj o zapisaniu!</h3>",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "206e-d033-d374",
+                        "attributes": {
+                            "html_edit": "<h3 style=\"text-align: center;\">Krok 4: To wszystko. Pamiętaj o zapisaniu!</h3>",
+                            "html_detail": "<h3 style=\"text-align: center;\">Krok 4: To wszystko. Pamiętaj o zapisaniu!</h3>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": [
+                            {
+                                "component_id": "f61f-8a49-448c",
+                                "label": "Status deklaracji (Kampanie kukurydziane 2021)",
+                                "value": "Nowa",
+                                "type": "Select",
+                                "_id": "5fae72bea9ab2c001ed548ca"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Zapisz",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "attributes": {
+                            "action": "finish",
+                            "position": "Fill",
+                            "button_color": "#5cb85c",
+                            "text_color": "#fff",
+                            "go_to_page": ""
+                        },
+                        "component_id": "bbe9-3e08-f24f",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Odrzuć",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "attributes": {
+                            "action": "cancel",
+                            "position": "Fill",
+                            "button_color": "#e51b1b",
+                            "text_color": "#fff",
+                            "go_to_page": ""
+                        },
+                        "component_id": "70cd-b629-1619",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "PL",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "Opportunity Country",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "90d3-1eba-2827",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "Intent to Purchase",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "Opportunity Type",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "2b3f-ac54-0381",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "01224000000FMNrAAO",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "Recordtypeid",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "dedb-8168-c4de",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "01s1o000005QMUvAAO",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "Pricebook2id",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "54b5-e6e1-99fc",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Hidden",
+                        "value": "Ukończone",
+                        "name": "Hidden",
+                        "category": "input",
+                        "label": "status",
+                        "icon": "/scripts/formbuilder/img/hidden.png",
+                        "component_id": "2494-af0f-1894",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            }
+        ],
+        "connections": [
+            "Salesforce",
+            "Salesforce",
+            "Salesforce",
+            "Salesforce",
+            "Salesforce"
+        ],
+        "created_by": {
+            "id": "602147a3e2ac1f00137178e6",
+            "first_name": "Test",
+            "last_name": "User"
+        },
+        "access": "Private",
+        "public": false,
+        "list_view_fields": null,
+        "archived": false
+    },
+    "connections": [
+        {
+            "_id": "60227c19e2ee6e00157a5a2d",
+            "created_at": "2020-11-13T11:50:13.255Z",
+            "updated_at": "2021-02-09T12:12:09.304Z",
+            "template_id": "60227c19e2ee6e00157a5a17",
+            "created_by_id": "602147a3e2ac1f00137178e6",
+            "owner_id": "602147a3e2ac1f00137178e6",
+            "sequence": 1,
+            "type": "Salesforce",
+            "push_updates": true,
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Id",
+                    "field_name": "Existing Record ID (Only For Updates)",
+                    "component_id": "5631-0fa6-cd2c",
+                    "component_name": "Wyszukaj konto ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Name",
+                    "field_name": "Nazwa konta ( Name )",
+                    "component_id": "32c5-3fc6-84c8",
+                    "component_name": "Nazwa konta ( Page: Kampanie kukurydziane 2021 )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "Account",
+                "object_name": "Konto",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "5631-0fa6-cd2c",
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        },
+        {
+            "_id": "60227c19e2ee6e00157a5a2e",
+            "created_at": "2020-11-13T11:52:10.219Z",
+            "updated_at": "2021-02-09T12:12:09.340Z",
+            "template_id": "60227c19e2ee6e00157a5a17",
+            "created_by_id": "602147a3e2ac1f00137178e6",
+            "owner_id": "602147a3e2ac1f00137178e6",
+            "sequence": 2,
+            "type": "Salesforce",
+            "push_updates": false,
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "AccountId",
+                    "field_name": "ID konta ( AccountId )",
+                    "component_id": "5631-0fa6-cd2c",
+                    "component_name": "Wyszukaj konto ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "CloseDate",
+                    "field_name": "Data zamknięcia ( CloseDate )",
+                    "component_id": "5095-7d04-bd41",
+                    "component_name": "Data podpisania ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "StageName",
+                    "field_name": "Etap ( StageName )",
+                    "component_id": "f61f-8a49-448c",
+                    "component_name": "Status deklaracji ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Description",
+                    "field_name": "Opis ( Description )",
+                    "component_id": "f226-40fe-2904",
+                    "component_name": "Komentarz ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Opportunity_Country__c",
+                    "field_name": "Opportunity Country ( Opportunity_Country__c )",
+                    "component_id": "90d3-1eba-2827",
+                    "component_name": "Opportunity Country ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Type",
+                    "field_name": "Typ okazji biznesowej ( Type )",
+                    "component_id": "2b3f-ac54-0381",
+                    "component_name": "Opportunity Type ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "RecordTypeId",
+                    "field_name": "ID typu rekordu ( RecordTypeId )",
+                    "component_id": "dedb-8168-c4de",
+                    "component_name": "Recordtypeid ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Pricebook2Id",
+                    "field_name": "ID cennika ( Pricebook2Id )",
+                    "component_id": "54b5-e6e1-99fc",
+                    "component_name": "Pricebook2id ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Lost_reason__c",
+                    "field_name": "Powód odmowy ( Lost_reason__c )",
+                    "component_id": "b99f-17c9-960e",
+                    "component_name": "Powód odrzucenia ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Name",
+                    "field_name": "Nazwa ( Name )",
+                    "component_id": "6160-31ce-6f27",
+                    "component_name": "Nazwa okazji biznesowej ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "CampaignId",
+                    "field_name": "ID kampanii ( CampaignId )",
+                    "component_id": "61d5-9bf2-0c00",
+                    "component_name": "Wybierz kampanię ( Page: Kampanie kukurydziane 2021 )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "Opportunity",
+                "object_name": "Okazja biznesowa",
+                "upsert_field": "",
+                "attachment": "note_and_attachment",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "",
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        },
+        {
+            "_id": "60227c19e2ee6e00157a5a2f",
+            "created_at": "2020-11-13T11:57:46.564Z",
+            "updated_at": "2021-02-09T12:12:09.359Z",
+            "template_id": "60227c19e2ee6e00157a5a17",
+            "created_by_id": "602147a3e2ac1f00137178e6",
+            "owner_id": "602147a3e2ac1f00137178e6",
+            "sequence": 3,
+            "type": "Salesforce",
+            "push_updates": true,
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "OpportunityId",
+                    "field_name": "ID okazji biznesowej ( OpportunityId )",
+                    "component_id": "60227c19e2ee6e00157a5a2e",
+                    "component_name": "[New Okazja biznesowa Record ID (Seq. 2)]"
+                },
+                {
+                    "field_id": "Product2Id",
+                    "field_name": "ID produktu ( Product2Id )",
+                    "component_id": "1664-d1f8-5b94",
+                    "component_name": "Wyszukaj produkt ( Page: Kampanie kukurydziane 2021 | Repeat: Produkty )"
+                },
+                {
+                    "field_id": "Planned_Quantity__c",
+                    "field_name": "Zaplanowana ilość ( Planned_Quantity__c )",
+                    "component_id": "c7f9-025d-c0e8",
+                    "component_name": "Ilość ( Page: Kampanie kukurydziane 2021 | Repeat: Produkty )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "OpportunityLineItem",
+                "object_name": "Produkt okazji biznesowej",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "6589-ebc5-ecd8",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "",
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        },
+        {
+            "_id": "60227c19e2ee6e00157a5a30",
+            "created_at": "2020-11-13T12:01:18.407Z",
+            "updated_at": "2021-02-09T12:12:09.376Z",
+            "template_id": "60227c19e2ee6e00157a5a17",
+            "created_by_id": "602147a3e2ac1f00137178e6",
+            "owner_id": "602147a3e2ac1f00137178e6",
+            "sequence": 4,
+            "type": "Salesforce",
+            "push_updates": false,
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Id",
+                    "field_name": "Existing Record ID (Only For Updates)",
+                    "component_id": "60227c19e2ee6e00157a5a2e",
+                    "component_name": "[New Okazja biznesowa Record ID (Seq. 2)]"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "Opportunity",
+                "object_name": "Okazja biznesowa",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "b99f-17c9-960e",
+                "skip_field_false": "",
+                "update_field": "5631-0fa6-cd2c",
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        },
+        {
+            "_id": "60227c19e2ee6e00157a5a31",
+            "created_at": "2020-11-26T14:28:53.344Z",
+            "updated_at": "2021-02-09T12:12:09.393Z",
+            "template_id": "60227c19e2ee6e00157a5a17",
+            "created_by_id": "602147a3e2ac1f00137178e6",
+            "owner_id": "602147a3e2ac1f00137178e6",
+            "sequence": 5,
+            "type": "Salesforce",
+            "push_updates": true,
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Name",
+                    "field_name": "Nazwa ( Name )",
+                    "component_id": "6160-31ce-6f27",
+                    "component_name": "Nazwa okazji biznesowej ( Page: Kampanie kukurydziane 2021 )"
+                },
+                {
+                    "field_id": "Id",
+                    "field_name": "Existing Record ID (Only For Updates)",
+                    "component_id": "61d5-9bf2-0c00",
+                    "component_name": "Wybierz kampanię ( Page: Kampanie kukurydziane 2021 )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "Campaign",
+                "object_name": "Kampania",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "61d5-9bf2-0c00",
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        }
+    ],
+    "form_pdf": {
+        "_id": "60227c19e2ee6e00157a5a32",
+        "created_at": "2020-11-13T11:50:04.533Z",
+        "updated_at": "2021-02-09T12:12:09.455Z",
+        "created_by_id": "602147a3e2ac1f00137178e6",
+        "template_id": "60227c19e2ee6e00157a5a17",
+        "html": "<p>{{8bf1-a8d7-65f3}}</p>\n\n<p>{{893f-6746-daaa}}</p>\n",
+        "version": "1",
+        "file_name": "",
+        "css": "",
+        "javascript": " ",
+        "page_settings": {
+            "page_size": "",
+            "orientation": "",
+            "page_height": "",
+            "page_width": "",
+            "margin_left": "",
+            "margin_bottom": "",
+            "margin_right": "",
+            "margin_top": "",
+            "footer_center": "",
+            "footer_right": "",
+            "footer_left": "",
+            "header_center": "",
+            "header_right": "",
+            "header_left": "",
+            "no_images": false,
+            "image_quality": 25,
+            "image_dpi": 600,
+            "lowquality": false,
+            "engine": false,
+            "disable_forms": false,
+            "enable_salesforce_images": false,
+            "disable_timezone_offset": false,
+            "disable_auto_page_break": false,
+            "enable_advanced_templating": false,
+            "header_html": "",
+            "footer_html": ""
+        },
+        "use_beta_engine": false,
+        "disable_bootstrap": false,
+        "use_custom": true,
+        "__v": 0
+    }
+}
