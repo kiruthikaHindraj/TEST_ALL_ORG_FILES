@@ -8,14 +8,15 @@
         "deployed": true,
         "created_at": "2021-02-09T12:37:57.994Z",
         "attributes": {
-            "language_locale_key": "",
-            "is_repeat": false,
-            "is_header_hidden": false,
-            "is_navigation_hidden": true,
-            "enable_sfdc_storage": false,
-            "enable_access_for_community_users": false,
+            "github_repository_sha": "e83d0d5dd70b4b93ceec76c463c993b2ba283cd5",
+            "disable_salesforce_retry_with_form_owner": false,
             "disable_salesforce_offline_sync": false,
-            "disable_salesforce_retry_with_form_owner": false
+            "enable_access_for_community_users": false,
+            "enable_sfdc_storage": false,
+            "is_navigation_hidden": true,
+            "is_header_hidden": false,
+            "is_repeat": false,
+            "language_locale_key": ""
         },
         "description": "",
         "tags": "",
@@ -119,7 +120,7 @@
                         },
                         "sfdc_query_fields": "Name",
                         "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "Name = 'Nasiona kukurydzy wyłącznościowe 2021' OR Name = 'Nasiona kukurydzy ogólne 2021'",
+                        "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
                         "sfdc_query_order_by": "",
                         "sfdc_query_search_group": "",
@@ -143,7 +144,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Date",
@@ -284,50 +286,51 @@
                         "sfdc_query_order_by": "",
                         "components": [
                             {
-                                "type": "Salesforce",
-                                "name": "",
-                                "category": "salesforce",
-                                "label": "Wyszukaj produkt",
-                                "icon": "/scripts/formbuilder/img/salesforce.png",
-                                "version": "3",
-                                "attributes": {
-                                    "query_fields": "",
-                                    "query_limit": "10",
-                                    "filter_fields": "",
-                                    "query_visibility": "",
-                                    "query_order_by": "",
-                                    "query_search_group": "",
-                                    "auto_fill_id": "",
-                                    "position": "Fill",
-                                    "enable_barcode_scanner": false,
-                                    "button": "Szukaj",
-                                    "show_auto_search_results": false,
-                                    "offline_sync_filter": "",
-                                    "custom_offline_lookup_filter": ""
-                                },
-                                "sfdc_query_fields": "Name",
-                                "sfdc_query_limit": "10",
-                                "sfdc_filter_fields": "PRICEBOOK2ID='01s1o000005QMUvAAO'",
-                                "sfdc_query_visibility": "All Records",
-                                "sfdc_query_order_by": "",
-                                "sfdc_query_search_group": "All Fields",
-                                "sfdc_auto_fill_id": "",
-                                "object_label": "None Selected",
-                                "object_api_name": "PricebookEntry",
-                                "record_id": "",
-                                "component_id": "1664-d1f8-5b94",
+                                "components": [],
                                 "required": true,
-                                "components": []
+                                "component_id": "1664-d1f8-5b94",
+                                "record_id": "",
+                                "object_api_name": "PricebookEntry",
+                                "object_label": "None Selected",
+                                "sfdc_auto_fill_id": "",
+                                "sfdc_query_search_group": "All Fields",
+                                "sfdc_query_order_by": "",
+                                "sfdc_query_visibility": "All Records",
+                                "sfdc_filter_fields": "PRICEBOOK2ID='01s1o000005QMUvAAO'",
+                                "sfdc_query_limit": "10",
+                                "sfdc_query_fields": "Name",
+                                "attributes": {
+                                    "custom_offline_lookup_filter": "",
+                                    "offline_sync_filter": "",
+                                    "show_auto_search_results": false,
+                                    "button": "Szukaj",
+                                    "enable_barcode_scanner": false,
+                                    "position": "Fill",
+                                    "auto_fill_id": "",
+                                    "query_search_group": "",
+                                    "query_order_by": "",
+                                    "query_visibility": "",
+                                    "filter_fields": "",
+                                    "query_limit": "10",
+                                    "query_fields": ""
+                                },
+                                "version": "3",
+                                "icon": "/scripts/formbuilder/img/salesforce.png",
+                                "label": "Wyszukaj produkt",
+                                "category": "salesforce",
+                                "name": "",
+                                "type": "Salesforce"
                             },
                             {
-                                "type": "Number",
-                                "name": "Number",
-                                "category": "input",
-                                "label": "Ilość",
-                                "icon": "/scripts/formbuilder/img/number.png",
-                                "component_id": "c7f9-025d-c0e8",
+                                "components": [],
                                 "required": true,
-                                "components": []
+                                "component_id": "c7f9-025d-c0e8",
+                                "icon": "/scripts/formbuilder/img/number.png",
+                                "label": "Ilość",
+                                "category": "input",
+                                "name": "Number",
+                                "type": "Number",
+                                "attributes": {}
                             }
                         ],
                         "repeat_value": [],
@@ -438,7 +441,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Hidden",
@@ -451,7 +455,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Hidden",
@@ -464,7 +469,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Hidden",
@@ -477,7 +483,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     },
                     {
                         "type": "Hidden",
@@ -490,7 +497,8 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "attributes": {}
                     }
                 ]
             }
